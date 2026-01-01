@@ -1,1 +1,20 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey"],
+      "responses": ["Hello!", "Hi there!", "Hey! How can I help?"]
+    },
+    {
+      "tag": "farewell",
+      "patterns": ["bye", "goodbye"],
+      "responses": ["Goodbye!", "See you later!"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["help", "support"],
+      "responses": ["I am here to help you."]
+    }
+  ]
+}
 
